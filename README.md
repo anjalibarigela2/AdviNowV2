@@ -8,7 +8,7 @@ FastAPI automatically generates interactive API documentation at:
 
 ## Setup Instructions
 
-- **Create a virtual environment and install the requirements - "requirements\requirements.txt"**
+## **Create a virtual environment and install the requirements - "requirements\requirements.txt"**
 
 ## 1. Clone the Repository
 
@@ -29,7 +29,7 @@ source venv/bin/activate    # macOS/Linux
 pip install -r requirements/requirements.txt
 
 
-- **Create data models - example with sqlalchemy in "app\models.py"**
+## **Create data models - example with sqlalchemy in "app\models.py"**
 
 Defined three core models using SQLAlchemy:
 Business: Stores business name and ID
@@ -45,7 +45,7 @@ DB_NAME=Database_name
 DB_USER=postgres
 DB_PWD=your_password_here
 
-**Generate migration script and run migration to create database tables - alembic files provided**
+## **Generate migration script and run migration to create database tables - alembic files provided**
   - To create a migration file: "alembic revision --autogenerate -m some_comment"
   - To update database with migration file: "alembic upgrade head"
 
@@ -61,7 +61,7 @@ python -m alembic upgrade head
 
 python -m app.run
 
-- **Create an endpoint that returns business and symptom data**
+## **Create an endpoint that returns business and symptom data**
   - Endpoint should take two optional parameters - business_id & diagnostic
   - Endpoint should return Business ID, Business Name, Symptom Code, Symptom Name, and Symptom Diagnostic values based on filter
 

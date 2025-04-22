@@ -21,8 +21,8 @@ cd AdviNowV2-master
 python -m venv venv
 
 venv\Scripts\activate     # Windows
-or
-source venv/bin/activate    # macOS/Linux
+<br> or <br/>
+<br>source venv/bin/activate    # macOS/Linux
 
 ## 3. Install Requirements
 

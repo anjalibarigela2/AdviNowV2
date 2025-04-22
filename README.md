@@ -31,19 +31,19 @@ pip install -r requirements/requirements.txt
 
 ## **Create data models - example with sqlalchemy in "app\models.py"**
 
-Defined three core models using SQLAlchemy:
-Business: Stores business name and ID
-Symptom: Stores symptom code and name
-BusinessSymptom: Association table connecting businesses to symptoms with a diagnostic label
+<br> Defined three core models using SQLAlchemy:
+<br> Business: Stores business name and ID
+<br> Symptom: Stores symptom code and name
+<br> BusinessSymptom: Association table connecting businesses to symptoms with a diagnostic label
 
 ## 4. Set Environment Variables
 
 Edit the .env file in the project root with:
 
-DB_HOST=127.0.0.1
-DB_NAME=Database_name
-DB_USER=postgres
-DB_PWD=your_password_here
+<br> DB_HOST=127.0.0.1
+<br> DB_NAME=Database_name
+<br> DB_USER=postgres
+<br> DB_PWD=your_password_here
 
 ## **Generate migration script and run migration to create database tables - alembic files provided**
   - To create a migration file: "alembic revision --autogenerate -m some_comment"

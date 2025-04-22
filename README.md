@@ -12,7 +12,7 @@ FastAPI automatically generates interactive API documentation at:
 
 ## 1. Clone the Repository
 
-git clone https://gitfront.io/r/user-8330764/24pYzvQfcYBi/interview-challenge-v2.git
+git clone https://github.com/anjalibarigela2/AdviNowV2-master
 
 cd AdviNowV2-master
 

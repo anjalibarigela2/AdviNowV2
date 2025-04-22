@@ -22,7 +22,7 @@ python -m venv venv
 
 venv\Scripts\activate     # Windows
 <br> or <br/>
-<br>source venv/bin/activate    # macOS/Linux
+source venv/bin/activate    # macOS/Linux
 
 ## 3. Install Requirements
 
